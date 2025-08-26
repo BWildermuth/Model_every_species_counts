@@ -83,7 +83,7 @@ for (i in 1:1) {
     #  tmp4 <- vector("list", 2)
     #  for (l in 1:2) {
     #    trophic_guild <- c("herbivore", "predator")
-    #    data4 <- data3[data3$feeding_guild %in% trophic_guild[l], ]
+    #    data4 <- data3[data3$trophic_guild %in% trophic_guild[l], ]
       
       # Grouping data by key treatment/experimental columns:
       
@@ -92,7 +92,7 @@ for (i in 1:1) {
       
       # Run pairwise comparisons generating Price components:
       
-      res1<- pairwise.price(grouped.data,species="species",func="biomass")
+      res1<- pairwise.price(grouped.data,species="morphospecies",func="biomass_sum")
       
       # save iterations
       
