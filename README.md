@@ -1,7 +1,7 @@
 Updated in October 2025
 # Model_every_species_counts
-Code for the manuscript under review:
-Every species counts: Arthropod species loss, but not their identity, underpins biomass declines
+Code for the publication:
+Arthropod species loss underpins biomass declines, Wildermuth et al. accepted in principle
 
 The R code was previously run on R 4.2.2 and newer versions. Required packages can be found in the code. Installation of R takes a couple of minutes, installation of the required packages a few seconds.
 
